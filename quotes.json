@@ -1,4 +1,4 @@
-[
+?(
 	{
 		"author" : "someone1", 
 		"text" : "text1"
@@ -20,4 +20,4 @@
 		"text" : "text5"
 	},
 
-]
+)
