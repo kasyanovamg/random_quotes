@@ -5,15 +5,22 @@
 	<!-- jQuery from Google -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<script src="https://use.fontawesome.com/67ad33a0da.js"></script>
 </head>
 <body>
-
-<div class="quote"></div>
-<button id="generate">Click</button>
-<button><a id="tweet" target="_blank">Tweet</a> </button>
-
-
-
+	<h1>Generate and tweet random quotes every day</h1>
+	<div class="button">
+	<button class="btn" id="generate">Generate another quote</button>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="quote"></div>	
+			<a id="tweet" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Tweet </a>
+		</div>
+	</div>
 
 <script src="script.js"></script>
 </body>
