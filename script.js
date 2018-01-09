@@ -24,4 +24,8 @@ function getQuote() {
       	$(this).attr("href", "https://twitter.com/intent/tweet?text=" + json.quoteText + " - " + json.quoteAuthor)
 	});
 	});
+    var color = randomColor();
+	$("body").css("background", color);
 }
+
+
