@@ -4,7 +4,7 @@ h1 {
 	margin: 40px;
 }
 .container {
-	height: 50vh;
+	margin: 60px;
   	display: flex;
   	justify-content: center;
  	align-items: center; 
@@ -13,16 +13,21 @@ h1 {
 	margin: 0 auto;
 	width: 600px;
 	background: white;
-	padding: 40px 40px 25px 40px;
+	padding: 40px 40px 30px 40px;
 	border: 1px solid #a5a5a5;
 	border-radius: 20px;
 	box-shadow: 0px 1px 3px #666666;
 }
 .quote {
 	font-family: 'Merriweather', serif;
+}
+.text {
 	font-size: 20px;
+	line-height: 160%;
+	text-align: justify;
 }
 .author {
+	font-size: 18px;
 	text-align: right;
 	font-style: italic;
 	color: #757575;
@@ -76,6 +81,7 @@ a:-webkit-any-link {
 }
 
 .btn:hover {
+  cursor: pointer;
   background: #2679ad;
   background-image: -webkit-linear-gradient(top, #2679ad, #1b5880);
   background-image: -moz-linear-gradient(top, #2679ad, #1b5880);
