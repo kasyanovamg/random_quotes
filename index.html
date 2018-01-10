@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Random Quote Machine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<!-- jQuery from Google -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
@@ -11,14 +13,18 @@
 	<script src="https://use.fontawesome.com/67ad33a0da.js"></script>
 </head>
 <body>
-	<h1>Generate and tweet random quotes every day</h1>
+	<div class="language">
+		<button id="english" class="btn">English</button>
+		<button id="russian" class="btn">Русский</button>
+	</div>
+	<h1 class="header"></h1>
 	<div class="button">
-	<button class="btn" id="generate">Generate another quote</button>
+	<button class="btn" id="generate"></button>
 	</div>
 	<div class="container">
 		<div class="box">
 			<div class="quote"></div>	
-			<a id="tweet" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Tweet </a>
+			<a id="tweet" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i><span id="shareTwit"></span></a>
 		</div>
 	</div>
 
